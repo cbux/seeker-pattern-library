@@ -1,0 +1,36 @@
+/* Text-Related Elements */ 
+p {
+	margin-bottom: $space;
+}
+
+/* Blockquote */
+blockquote {
+    font-style:italic;
+    border-left: 1px solid $med-gray;
+    color: $light-gray;
+	padding-left: $pad;
+	margin-bottom: $space;
+}
+
+/* Horizontal Rule */ 
+hr {
+	border: 0;
+    height: 2px;
+    background: $light-gray;
+    margin: $space-double 0;
+}
+
+abbr {
+    border-bottom: 1px dotted $med-gray;
+    cursor: help;
+}
+
+/* Strong and Italic */
+em, i {
+    font-style: italics;
+}
+
+strong, b {
+    font-weight: 700;
+    font-style: normal;
+}
